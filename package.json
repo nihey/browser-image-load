@@ -1,7 +1,7 @@
 {
   "name": "image-load",
-  "version": "0.0.0",
-  "description": "Load images asyncronously",
+  "version": "0.0.1",
+  "description": "Turn URLs intro Images asyncronously",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
     "async"
   ],
   "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
-  "license": "CC0",
+  "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/nihey/browser-image-load/issues"
   },

@@ -1,9 +1,10 @@
 {
   "name": "image-load",
-  "version": "0.0.1",
-  "description": "Turn URLs intro Images asyncronously",
-  "main": "./lib/index.js",
+  "version": "0.0.2",
+  "description": "Turn URLs intro Images easily",
+  "main": "./index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/nihey/browser-image-load/issues"
   },
-  "homepage": "https://github.com/nihey/browser-image-load"
+  "homepage": "https://github.com/nihey/browser-image-load",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
 }
